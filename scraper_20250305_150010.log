@@ -1,0 +1,23 @@
+2025-03-05 15:00:12,935 - INFO - Starting one-time scrape of https://www.naukri.com/code360/profile/TheRealSaiTama
+2025-03-05 15:00:12,935 - INFO - Using selectors: {
+  "container": ".item",
+  "title": ".title",
+  "price": ".price"
+}
+2025-03-05 15:00:12,938 - DEBUG - Starting new HTTPS connection (1): www.naukri.com:443
+2025-03-05 15:00:13,496 - DEBUG - https://www.naukri.com:443 "GET /code360/profile/TheRealSaiTama HTTP/1.1" 200 6175
+2025-03-05 15:00:13,498 - DEBUG - Received HTML content (preview): <!DOCTYPE html><html lang="en"><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <meta charset="utf-8">
+    <title>Code 360 by Coding Ninjas</title>
+    <meta name="msvalidate.01" content="9FCE3564911D63DF02B0C83F55B6BDBC">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="2024 Naukri.com">
+    <meta name="content-language" content="EN">
+    <meta name="author" content="www.naukri.com">...
+2025-03-05 15:00:13,501 - INFO - Found 0 containers using selector: .item
+2025-03-05 15:00:13,501 - WARNING - No containers found, trying to parse whole page
+2025-03-05 15:00:13,502 - WARNING - Container 1: No elements found for selector '.title' (field: title)
+2025-03-05 15:00:13,502 - WARNING - Container 1: No elements found for selector '.price' (field: price)
+2025-03-05 15:00:13,502 - WARNING - Container 1: No data extracted, skipping
+2025-03-05 15:00:13,502 - ERROR - No data extracted from the page
